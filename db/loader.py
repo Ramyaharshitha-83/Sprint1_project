@@ -23,37 +23,66 @@ def create_database():
 
 def load_tables(conn):
 
-    companies = load_core_dataset("companies.xlsx")
-    profitandloss = load_core_dataset("profitandloss.xlsx")
-    balancesheet = load_core_dataset("balancesheet.xlsx")
-    cashflow = load_core_dataset("cashflow.xlsx")
+    audit_rows = []
 
-    companies.to_sql(
-        "companies",
-        conn,
-        if_exists="append",
+    datasets = [
+        ("companies", load_core_dataset("companies.xlsx")),
+        ("profitandloss", load_core_dataset("profitandloss.xlsx")),
+        ("balancesheet", load_core_dataset("balancesheet.xlsx")),
+        ("cashflow", load_core_dataset("cashflow.xlsx")),
+        ("analysis", load_core_dataset("analysis.xlsx")),
+        ("documents", load_core_dataset("documents.xlsx")),
+        ("prosandcons", load_core_dataset("prosandcons.xlsx"))
+    ]
+
+    supporting = {
+        "sectors": "sectors.xlsx",
+        "stock_prices": "stock_prices.xlsx",
+        "market_cap": "market_cap.xlsx",
+        "financial_ratios": "financial_ratios.xlsx",
+        "peer_groups": "peer_groups.xlsx"
+    }
+
+    for table, file in supporting.items():
+
+        df = pd.read_excel(
+            f"data/supporting/{file}"
+        )
+
+        datasets.append((table, df))
+
+    for table_name, df in datasets:
+
+        rows_before = len(df)
+
+        df.to_sql(
+            table_name,
+            conn,
+            if_exists="append",
+            index=False
+        )
+
+        audit_rows.append({
+            "table_name": table_name,
+            "rows_loaded": rows_before
+        })
+
+        print(
+            f"Loaded {table_name}: "
+            f"{rows_before} rows"
+        )
+
+    audit_df = pd.DataFrame(
+        audit_rows
+    )
+
+    audit_df.to_csv(
+        "load_audit.csv",
         index=False
     )
 
-    profitandloss.to_sql(
-        "profitandloss",
-        conn,
-        if_exists="append",
-        index=False
-    )
-
-    balancesheet.to_sql(
-        "balancesheet",
-        conn,
-        if_exists="append",
-        index=False
-    )
-
-    cashflow.to_sql(
-        "cashflow",
-        conn,
-        if_exists="append",
-        index=False
+    print(
+        "\nload_audit.csv generated"
     )
 
     conn.commit()
