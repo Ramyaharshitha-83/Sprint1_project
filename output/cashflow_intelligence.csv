@@ -1,0 +1,101 @@
+company_id,company_name,cash_from_operations_cr,free_cash_flow_cr,capex_cr,reinvestment_ratio,cashflow_health,warnings
+ABB,Abbott India Ltd,1213.0,797.0,416.0,0.34,Healthy,No major cash flow concerns
+ADANIENSOL,Adani Energy Solutions Ltd,6038.0,1095.0,4943.0,0.82,Healthy,No major cash flow concerns
+ADANIENT,Adani Enterprises Ltd,10312.0,-8455.0,18767.0,1.82,Warning,Negative Free Cash Flow; Capital Expenditure exceeds Operating Cash Flow; Very High Reinvestment Ratio
+ADANIGREEN,Adani Green Energy Ltd,7713.0,-13347.0,21060.0,2.73,Warning,Negative Free Cash Flow; Capital Expenditure exceeds Operating Cash Flow; Very High Reinvestment Ratio
+ADANIPORTS,Adani Ports & Special Economic Zone Ltd,15018.0,8250.0,6768.0,0.45,Healthy,No major cash flow concerns
+ADANIPOWER,Adani Power Ltd,14170.0,17651.0,3481.0,0.25,Healthy,No major cash flow concerns
+AMBUJACEM,Ambuja Cements Ltd,5646.0,-3295.0,8941.0,1.58,Warning,Negative Free Cash Flow; Capital Expenditure exceeds Operating Cash Flow; Very High Reinvestment Ratio
+APOLLOHOSP,"Apollo Hospitals
+Chain of Indian private hospitals",1920.0,383.0,1537.0,0.8,Healthy,No major cash flow concerns
+ASIANPAINT,"Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company",6104.0,3556.0,2548.0,0.42,Healthy,No major cash flow concerns
+ATGL,Adani Total Gas Ltd,,,,,Unknown,No major cash flow concerns
+BAJAJ-AUTO,Bajaj Auto Ltd,6558.0,6486.0,72.0,0.01,Healthy,No major cash flow concerns
+AXISBANK,Axis Bank Ltd,-5555.0,-14556.0,9001.0,,Critical,Negative Operating Cash Flow; Capital Expenditure exceeds Operating Cash Flow
+BAJAJFINSV,Bajaj Finserv Ltd,-68674.0,-79634.0,10960.0,,Critical,Negative Operating Cash Flow; Capital Expenditure exceeds Operating Cash Flow
+BAJAJHLDNG,Bajaj Holdings & Investment Ltd,1941.0,1469.0,472.0,0.24,Healthy,No major cash flow concerns
+BAJFINANCE,Bajaj Finance Ltd,-72760.0,-79931.0,7171.0,,Critical,Negative Operating Cash Flow; Capital Expenditure exceeds Operating Cash Flow
+BANKBARODA,Bank of Baroda,-6274.0,-7559.0,1285.0,,Critical,Negative Operating Cash Flow; Capital Expenditure exceeds Operating Cash Flow
+BHARTIARTL,Bharti Airtel Ltd,78898.0,27809.0,51089.0,0.65,Healthy,No major cash flow concerns
+BEL,Bharat Electronics Ltd,4659.0,-1265.0,5924.0,1.27,Warning,Negative Free Cash Flow; Capital Expenditure exceeds Operating Cash Flow; Very High Reinvestment Ratio
+BHEL,Bharat Heavy Electricals Limited,-3713.0,-2382.0,1331.0,,Critical,Negative Operating Cash Flow; Capital Expenditure exceeds Operating Cash Flow
+BOSCHLTD,Bosch Ltd,1253.0,1536.0,283.0,0.23,Healthy,No major cash flow concerns
+BPCL,Bharat Petroleum Corporation Ltd,35936.0,25415.0,10521.0,0.29,Healthy,No major cash flow concerns
+BRITANNIA,Britannia Industries Ltd,2573.0,3050.0,477.0,0.19,Healthy,No major cash flow concerns
+CANBK,Canara Bank,15046.0,13296.0,1750.0,0.12,Healthy,No major cash flow concerns
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,-35683.0,-38538.0,2855.0,,Critical,Negative Operating Cash Flow; Capital Expenditure exceeds Operating Cash Flow
+CIPLA,Cipla Ltd,4134.0,1152.0,2982.0,0.72,Healthy,No major cash flow concerns
+COALINDIA,Coal India Ltd,18103.0,13617.0,4486.0,0.25,Healthy,No major cash flow concerns
+DABUR,Dabur India Ltd,2013.0,1042.0,971.0,0.48,Healthy,No major cash flow concerns
+DIVISLAB,Divis Laboratories Ltd,1261.0,992.0,269.0,0.21,Healthy,No major cash flow concerns
+DLF,DLF Ltd,2539.0,1010.0,1529.0,0.6,Healthy,No major cash flow concerns
+DMART,Avenue Supermarts Ltd,2746.0,278.0,2468.0,0.9,Healthy,No major cash flow concerns
+DRREDDY,Dr Reddys Laboratories Ltd,4543.0,509.0,4034.0,0.89,Healthy,No major cash flow concerns
+EICHERMOT,Eicher Motors Ltd,3724.0,890.0,2834.0,0.76,Healthy,No major cash flow concerns
+GAIL,GAIL (India) Ltd,12586.0,4360.0,8226.0,0.65,Healthy,No major cash flow concerns
+GODREJCP,Godrej Consumer Products Ltd,2070.0,-1365.0,3435.0,1.66,Warning,Negative Free Cash Flow; Capital Expenditure exceeds Operating Cash Flow; Very High Reinvestment Ratio
+GRASIM,Grasim Industries Ltd,-10719.0,-33833.0,23114.0,,Critical,Negative Operating Cash Flow; Capital Expenditure exceeds Operating Cash Flow
+HAL,Hindustan Aeronautics Ltd,8226.0,1814.0,6412.0,0.78,Healthy,No major cash flow concerns
+HAVELLS,Havells India Ltd,1953.0,335.0,1618.0,0.83,Healthy,No major cash flow concerns
+HCLTECH,HCL Technologies Ltd,22448.0,15840.0,6608.0,0.29,Healthy,No major cash flow concerns
+HDFCBANK,HDFC Bank Ltd,19069.0,35669.0,16600.0,0.87,Healthy,No major cash flow concerns
+HDFCLIFE,HDFC Life Insurance Company Ltd,10721.0,-2893.0,13614.0,1.27,Warning,Negative Free Cash Flow; Capital Expenditure exceeds Operating Cash Flow; Very High Reinvestment Ratio
+HEROMOTOCO,Hero MotoCorp Ltd,4923.0,3095.0,1828.0,0.37,Healthy,No major cash flow concerns
+HINDALCO,Hindalco Industries Ltd,24056.0,9789.0,14267.0,0.59,Healthy,No major cash flow concerns
+HINDUNILVR,Hindustan Unilever Ltd,15469.0,10145.0,5324.0,0.34,Healthy,No major cash flow concerns
+ICICIBANK,ICICI Bank Ltd,157284.0,12547.0,144737.0,0.92,Healthy,No major cash flow concerns
+ICICIGI,ICICI Lombard General Insurance Company Ltd,2407.0,486.0,1921.0,0.8,Healthy,No major cash flow concerns
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,-7315.0,105.0,7420.0,,Critical,Negative Operating Cash Flow; Capital Expenditure exceeds Operating Cash Flow
+INDUSINDBK,IndusInd Bank Ltd,-16843.0,-17468.0,625.0,,Critical,Negative Operating Cash Flow; Capital Expenditure exceeds Operating Cash Flow
+INFY,Infosys Ltd,25210.0,20117.0,5093.0,0.2,Healthy,No major cash flow concerns
+IOC,Indian Oil Corporation,71099.0,39635.0,31464.0,0.44,Healthy,No major cash flow concerns
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,882.0,667.0,215.0,0.24,Healthy,No major cash flow concerns
+IRFC,Indian Railway Finance Corporation Ltd,7914.0,7906.0,8.0,0.0,Healthy,No major cash flow concerns
+ITC,ITC Ltd,17179.0,18742.0,1563.0,0.09,Healthy,No major cash flow concerns
+JINDALSTEL,Jindal Steel & Power Ltd,6008.0,-2336.0,8344.0,1.39,Warning,Negative Free Cash Flow; Capital Expenditure exceeds Operating Cash Flow; Very High Reinvestment Ratio
+JIOFIN,Jio Financial Services Ltd,-678.0,763.0,1441.0,,Critical,Negative Operating Cash Flow; Capital Expenditure exceeds Operating Cash Flow
+JSWENERGY,JSW Energy Ltd,6234.0,-1963.0,8197.0,1.31,Warning,Negative Free Cash Flow; Capital Expenditure exceeds Operating Cash Flow; Very High Reinvestment Ratio
+JSWSTEEL,JSW Steel Ltd,12078.0,-2389.0,14467.0,1.2,Warning,Negative Free Cash Flow; Capital Expenditure exceeds Operating Cash Flow; Very High Reinvestment Ratio
+KOTAKBANK,Kotak Mahindra Bank Ltd,15685.0,6766.0,8919.0,0.57,Healthy,No major cash flow concerns
+LICI,Life Insurance Corporation of India,26122.0,853.0,25269.0,0.97,Healthy,No major cash flow concerns
+LODHA,Macrotech Developers Ltd,2512.0,-435.0,2947.0,1.17,Warning,Negative Free Cash Flow; Capital Expenditure exceeds Operating Cash Flow; Very High Reinvestment Ratio
+LT,Larsen & Toubro Ltd,18266.0,20445.0,2179.0,0.12,Healthy,No major cash flow concerns
+LTIM,LTIMindtree Ltd,5670.0,1752.0,3918.0,0.69,Healthy,No major cash flow concerns
+M&M,Mahindra & Mahindra Ltd,-5630.0,-11245.0,5615.0,,Critical,Negative Operating Cash Flow; Capital Expenditure exceeds Operating Cash Flow
+MARUTI,Maruti Suzuki India Ltd,16801.0,4936.0,11865.0,0.71,Healthy,No major cash flow concerns
+MOTHERSON,Samvardhana Motherson International Ltd,7569.0,925.0,6644.0,0.88,Healthy,No major cash flow concerns
+NAUKRI,Info Edge (India) Ltd,702.0,-150.0,852.0,1.21,Warning,Negative Free Cash Flow; Capital Expenditure exceeds Operating Cash Flow; Very High Reinvestment Ratio
+NESTLEIND,Nestle India Ltd,4175.0,2938.0,1237.0,0.3,Healthy,No major cash flow concerns
+NHPC,NHPC Ltd,6938.0,970.0,5968.0,0.86,Healthy,No major cash flow concerns
+NTPC,NTPC Ltd,40785.0,8644.0,32141.0,0.79,Healthy,No major cash flow concerns
+ONGC,Oil & Natural Gas Corpn Ltd,99263.0,42060.0,57203.0,0.58,Healthy,No major cash flow concerns
+PFC,Power Finance Corporation Ltd,-97820.0,-101229.0,3409.0,,Critical,Negative Operating Cash Flow; Capital Expenditure exceeds Operating Cash Flow
+PIDILITIND,Pidilite Industries Ltd,2724.0,955.0,1769.0,0.65,Healthy,No major cash flow concerns
+PNB,Punjab National Bank,-27939.0,-29445.0,1506.0,,Critical,Negative Operating Cash Flow; Capital Expenditure exceeds Operating Cash Flow
+POWERGRID,Power Grid Corporation of India Ltd,37290.0,24176.0,13114.0,0.35,Healthy,No major cash flow concerns
+RECLTD,REC Ltd,-57723.0,-59554.0,1831.0,,Critical,Negative Operating Cash Flow; Capital Expenditure exceeds Operating Cash Flow
+RELIANCE,Reliance Industries Ltd,158788.0,45207.0,113581.0,0.72,Healthy,No major cash flow concerns
+SBILIFE,SBI Life Insurance Company Ltd,29122.0,-2099.0,31221.0,1.07,Warning,Negative Free Cash Flow; Capital Expenditure exceeds Operating Cash Flow; Very High Reinvestment Ratio
+SBIN,State Bank of India,21632.0,18156.0,3476.0,0.16,Healthy,No major cash flow concerns
+SHREECEM,Shree Cement Ltd,3347.0,1929.0,1418.0,0.42,Healthy,No major cash flow concerns
+SHRIRAMFIN,Shriram Finance Ltd,-31101.0,-31359.0,258.0,,Critical,Negative Operating Cash Flow; Capital Expenditure exceeds Operating Cash Flow
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,12135.0,11372.0,763.0,0.06,Healthy,No major cash flow concerns
+TATACONSUM,Tata Consumer Products Ltd,1937.0,26.0,1911.0,0.99,Healthy,No major cash flow concerns
+TATAMOTORS,Tata Motors Ltd,67915.0,45133.0,22782.0,0.34,Healthy,No major cash flow concerns
+TATAPOWER,Tata Power Company Ltd,12596.0,3569.0,9027.0,0.72,Healthy,No major cash flow concerns
+TATASTEEL,Tata Steel Ltd,20301.0,6048.0,14253.0,0.7,Healthy,No major cash flow concerns
+TCS,Tata Consultancy Services Ltd,44338.0,50429.0,6091.0,0.14,Healthy,No major cash flow concerns
+TECHM,Tech Mahindra Ltd,6376.0,5058.0,1318.0,0.21,Healthy,No major cash flow concerns
+TITAN,Titan Company Ltd,1695.0,1506.0,189.0,0.11,Healthy,No major cash flow concerns
+TORNTPHARM,Torrent Pharmaceuticals Ltd,3266.0,3106.0,160.0,0.05,Healthy,No major cash flow concerns
+TRENT,Trent Ltd,1349.0,841.0,508.0,0.38,Healthy,No major cash flow concerns
+TVSMOTOR,TVS Motor Company Ltd,-1253.0,-2254.0,1001.0,,Critical,Negative Operating Cash Flow; Capital Expenditure exceeds Operating Cash Flow
+ULTRACEMCO,,10898.0,2109.0,8789.0,0.81,Healthy,No major cash flow concerns
+UNIONBANK,,19930.0,18536.0,1394.0,0.07,Healthy,No major cash flow concerns
+UNITDSPR,,1118.0,1344.0,226.0,0.2,Healthy,No major cash flow concerns
+VEDL,,35654.0,21978.0,13676.0,0.38,Healthy,No major cash flow concerns
+WIPRO,,17622.0,18766.0,1144.0,0.06,Healthy,No major cash flow concerns
+ZOMATO,,646.0,298.0,348.0,0.54,Healthy,No major cash flow concerns
+ZYDUSLIFE,,3228.0,1736.0,1492.0,0.46,Healthy,No major cash flow concerns
+INDIGO,Interglobe Aviation Ltd,21183.0,9424.0,11759.0,0.56,Healthy,No major cash flow concerns
