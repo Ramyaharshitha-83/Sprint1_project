@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from src.api.routers import health
+from src.api.routers import health, company
 
 app = FastAPI(
     title="Nifty100 Financial Analysis API",
@@ -9,6 +9,7 @@ app = FastAPI(
 )
 
 app.include_router(health.router)
+app.include_router(company.router)
 
 
 @app.get("/")
